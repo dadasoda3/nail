@@ -1,0 +1,36 @@
+body{
+  background-color: white;
+}
+.faq-card {
+margin-right: 50%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  color: black;
+  transition: all 0.3s ease; /* Плавность */
+}
+
+/* Стили для заголовка (вопроса) */
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Стили для контента (ответа) */
+.faq-answer {
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+}
+
+/* Изменение стиля при открытии */
+.faq-card[open] {
+  background-color: #eefbff;
+  border-color: #007bff;
+}
+.faq-card{
+    vertical-align: bottom;
+ }
